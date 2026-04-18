@@ -1,0 +1,2 @@
+trace_id,timestamp,sample_id,source,split,strategy,predicted,expected,correct,latency_ms,total_tokens,cost_usd,iterations,steps,error
+iter_refine_1775796053283_0,2026-04-10T10:10:53,0,gsm8k,test,iter_refine,18,18,True,37650.41,3245,0.0,2,6,

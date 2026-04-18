@@ -1,0 +1,62 @@
+{
+  "baseline": {
+    "strategy": "baseline",
+    "parameters": {},
+    "total_samples": 2,
+    "correct_count": 2,
+    "accuracy_pct": 100.0,
+    "avg_latency_ms": 5653.07,
+    "avg_tokens": 453.5,
+    "total_cost_usd": 0.0,
+    "result_csv": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\baseline_results.csv"
+  },
+  "iter_refine": {
+    "strategy": "iter_refine",
+    "parameters": {
+      "max_iterations": 3
+    },
+    "total_samples": 2,
+    "correct_count": 2,
+    "accuracy_pct": 100.0,
+    "avg_latency_ms": 108475.76,
+    "avg_tokens": 2990,
+    "total_cost_usd": 0.0,
+    "result_csv": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\iter_refine_results.csv"
+  },
+  "filter": {
+    "strategy": "filter",
+    "parameters": {
+      "num_samples": 3
+    },
+    "total_samples": 2,
+    "correct_count": 2,
+    "accuracy_pct": 100.0,
+    "avg_latency_ms": 54273.99,
+    "avg_tokens": 3238.5,
+    "total_cost_usd": 0.0,
+    "result_csv": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\filter_results.csv"
+  },
+  "majority": {
+    "strategy": "majority",
+    "parameters": {
+      "num_samples": 5
+    },
+    "total_samples": 2,
+    "correct_count": 2,
+    "accuracy_pct": 100.0,
+    "avg_latency_ms": 87460.7,
+    "avg_tokens": 1646.5,
+    "total_cost_usd": 0.0,
+    "result_csv": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\majority_results.csv"
+  },
+  "_artifacts": {
+    "database": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\reasoning_traces.db",
+    "exports": {
+      "traces": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\exports\\traces.csv",
+      "steps": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\exports\\steps.csv",
+      "critiques": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\exports\\critiques.csv",
+      "daily_metrics": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\exports\\daily_metrics.csv"
+    },
+    "summary_json": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\reports\\pipeline_summary_20260406_005652.json"
+  }
+}

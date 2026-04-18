@@ -1,0 +1,5 @@
+strategy,parameters,total_samples,correct_count,accuracy_pct,avg_latency_ms,avg_tokens,total_cost_usd,result_csv
+baseline,{},1,1,100.0,19304.47,539,0.0,C:\Users\Dell\Downloads\sem6\softcomputing\project\data_engineering\data\baseline_results.csv
+iter_refine,{'max_iterations': 1},1,1,100.0,81151.47,1524,0.0,C:\Users\Dell\Downloads\sem6\softcomputing\project\data_engineering\data\iter_refine_results.csv
+filter,{'num_samples': 2},1,1,100.0,71005.8,4161,0.0,C:\Users\Dell\Downloads\sem6\softcomputing\project\data_engineering\data\filter_results.csv
+majority,{'num_samples': 3},1,1,100.0,66749.56,3694,0.0,C:\Users\Dell\Downloads\sem6\softcomputing\project\data_engineering\data\majority_results.csv

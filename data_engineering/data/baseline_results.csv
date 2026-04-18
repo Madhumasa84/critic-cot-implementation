@@ -1,0 +1,2 @@
+trace_id,timestamp,sample_id,source,split,strategy,predicted,expected,correct,latency_ms,total_tokens,cost_usd,iterations,steps,error
+baseline_1775795803578_0,2026-04-10T10:06:43,0,gsm8k,test,baseline,18,18,True,249680.58,979,0.0,1,5,

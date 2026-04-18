@@ -1,0 +1,52 @@
+{
+  "baseline": {
+    "strategy": "baseline",
+    "parameters": {},
+    "total_samples": 2,
+    "correct_count": 2,
+    "accuracy_pct": 100.0,
+    "avg_latency_ms": 5.0,
+    "avg_tokens": 20,
+    "total_cost_usd": 0.0,
+    "result_csv": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\baseline_results.csv"
+  },
+  "iter_refine": {
+    "strategy": "iter_refine",
+    "parameters": {
+      "max_iterations": 3
+    },
+    "total_samples": 2,
+    "correct_count": 2,
+    "accuracy_pct": 100.0,
+    "avg_latency_ms": 10.0,
+    "avg_tokens": 40,
+    "total_cost_usd": 0.0,
+    "result_csv": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\iter_refine_results.csv"
+  },
+  "filter": {
+    "strategy": "filter",
+    "parameters": {
+      "num_samples": 3
+    },
+    "total_samples": 2,
+    "correct_count": 2,
+    "accuracy_pct": 100.0,
+    "avg_latency_ms": 30.0,
+    "avg_tokens": 120,
+    "total_cost_usd": 0.0,
+    "result_csv": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\filter_results.csv"
+  },
+  "majority": {
+    "strategy": "majority",
+    "parameters": {
+      "num_samples": 5
+    },
+    "total_samples": 2,
+    "correct_count": 2,
+    "accuracy_pct": 100.0,
+    "avg_latency_ms": 25.0,
+    "avg_tokens": 100,
+    "total_cost_usd": 0.0,
+    "result_csv": "C:\\Users\\Dell\\Downloads\\sem6\\softcomputing\\project\\data_engineering\\data\\majority_results.csv"
+  }
+}

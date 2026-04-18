@@ -1,0 +1,2 @@
+trace_id,timestamp,sample_id,source,split,strategy,predicted,expected,correct,latency_ms,total_tokens,cost_usd,iterations,steps,error
+majority_1775796172691_0,2026-04-10T10:12:52,0,gsm8k,test,majority,,18,False,161234.78,0,0.0,3,0,429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
